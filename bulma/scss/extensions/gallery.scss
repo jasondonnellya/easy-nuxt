@@ -1,0 +1,90 @@
+$gallery: transparent;
+$galleryThumbnail: transparent;
+$galleryThumbnailBorder: $secondary;
+$galleryThumbnailSelected: $secondary;
+$galleryControls: $primary;
+
+.--easy-nuxt__gallery-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.--easy-nuxt__gallery {
+    position: relative;
+    overflow: hidden;
+    // color
+    background: $gallery;
+}
+
+.--easy-nuxt__gallery-items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .25s;
+}
+
+.--easy-nuxt__gallery-item {
+    position: absolute;
+    top: 0;
+}
+
+.--easy-nuxt__gallery-prev, .--easy-nuxt__gallery-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .2;
+    transition: opacity .2s;
+}
+
+.--easy-nuxt__gallery-prev {
+    left: 0;
+}
+
+.--easy-nuxt__gallery-next {
+    right: 0;
+}
+
+.--easy-nuxt__image-thumbnailsContainer {
+    position: relative;
+    // thumbnail border
+    border: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    // color
+    background: $galleryThumbnail;
+    border-color: $galleryThumbnailBorder;
+    // scrollbar
+    // -ms-overflow-style: none;  /* IE and Edge */
+    // scrollbar-width: none;  /* Firefox */
+}
+
+.--easy-nuxt__image-thumbnailsContainer::-webkit-scrollbar {
+    // display: none;
+}
+
+.--easy-nuxt__image-thumbnails {
+    position: relative;
+}
+
+.--easy-nuxt__image-thumbnail {
+    cursor: pointer;
+}
+
+.--easy-nuxt__image-thumbnail.active {
+    background: $galleryThumbnailSelected;
+}
+
+.--easy-nuxt__gallery-prev, .--easy-nuxt__gallery-next {
+    color: $galleryControls;
+}
+
+/* hover */
+
+.--easy-nuxt__image-thumbnail:hover {
+    opacity: .8;
+}
+
+.--easy-nuxt__gallery:hover > .--easy-nuxt__gallery-prev,
+.--easy-nuxt__gallery:hover > .--easy-nuxt__gallery-next {
+    opacity: 1;
+}
