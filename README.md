@@ -14,6 +14,8 @@ Currently Supported: Bulma, Strapi.
 
 Easy Nuxt uses an internal API that needs to be registered in your project. It currently only has one route for getComponents.
 
+This can be found in /api directory.
+
 ## Bulma
 
 ### Components
