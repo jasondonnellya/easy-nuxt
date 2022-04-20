@@ -18,7 +18,7 @@ Easy Nuxt uses an internal API that needs to be registered in your project. It c
 
 ### Components
 
-Bulma components are registered through the Easy Nuxt API by running the /easy-nuxt/bulma/import.js
+> Bulma components are registered through the Easy Nuxt API by running the /easy-nuxt/bulma/import.js
 
 By registering Vue Components globally, developers are able to remove bloat from their /components directory. Easy Nuxt then uses the API to automatically check if you want to override a Bulma component using the /components/Bulma directory.
 
@@ -28,7 +28,7 @@ By doing this, developers can essentially render the same components throughout 
 
 ### Components
 
-Strapi components are registered through the Easy Nuxt API by running the /easy-nuxt/strapi/import.js
+> Strapi components are registered through the Easy Nuxt API by running the /easy-nuxt/strapi/import.js
 
 The Strapi components for easy-nuxt are not based on classes but instead use Bulma at the moment and a Template version of Strapi that I will release as a seperate respository. Ideally these will be re-created using a variety of CSS frameworks after they are supported. These components are helpers such as Products, Product, Blogs, Blog, Stripe etc.
 
