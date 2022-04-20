@@ -4,11 +4,11 @@ Easy nuxt is a helper module for adding easy cross-site versioning of frontend c
 
 Currently Supported: Bulma, Strapi.
 
-## Warnings:
+## Warnings
 
-! Documentation for easy-nuxt is not ready.
-! Installation for easy-nuxt is not quite ready and I advise against hacking together an installation due to future migration issues
-! Easy Nuxt is not a production ready package and is only in testing.
+- Documentation for easy-nuxt is not ready.
+- Installation for easy-nuxt is not quite ready and I advise against hacking together an installation due to future migration issues.
+- Easy Nuxt is not a production ready package and is only in testing.
 
 ##Easy Nuxt API
 
