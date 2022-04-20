@@ -22,6 +22,8 @@ Bulma components are registered through the Easy Nuxt API by running the /easy-n
 
 By registering Vue Components globally, developers are able to remove bloat from their /components directory. Easy Nuxt then uses the API to automatically check if you want to override a Bulma component using the /components/Bulma directory.
 
+By doing this, developers can essentially render the same components throughout their entire project, use Bulma variables in SASS as a theme and then if a component is overridden or changed it will take effect over the entire site.
+
 ## Strapi
 
 ### Components
