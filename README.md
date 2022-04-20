@@ -20,6 +20,8 @@ Easy Nuxt uses an internal API that needs to be registered in your project. It c
 
 Bulma components are registered through the Easy Nuxt API by running the /easy-nuxt/bulma/import/js
 
+By registering Vue Components globally, developers are able to remove bloat from their /components directory. Easy Nuxt then uses the API to automatically check if you want to override a Bulma component using the /components/Bulma directory.
+
 ## Strapi
 
 ### Components
