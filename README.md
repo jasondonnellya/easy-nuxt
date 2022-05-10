@@ -6,6 +6,10 @@ Easy nuxt is a helper module for adding easy cross-site versioning of frontend c
 
 Currently Supported: Bulma, Strapi.
 
+TODO:
+
+Nuxt3 has support for dynamic component imports, so the Easy Nuxt api is not necessary anymore.
+
 ## Warnings
 
 - ! Documentation for easy-nuxt is not ready.
